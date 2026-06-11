@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "740586991744",
+    "project_id": "medilearn-notifications-dd32b",
+    "storage_bucket": "medilearn-notifications-dd32b.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:740586991744:android:5ed0debb5be916d13d7665",
+        "android_client_info": {
+          "package_name": "com.example.med_learning_app"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBr3kGv-pjpYKhSO7Rdy9296y4XyN_AN-c"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

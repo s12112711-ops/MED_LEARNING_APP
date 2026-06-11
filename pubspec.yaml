@@ -1,0 +1,42 @@
+name: med_learning_app
+description: "A new Flutter project."
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.10.7
+
+dependencies:
+  flutter:
+    sdk: flutter
+  firebase_core: ^3.13.0
+  firebase_messaging: ^15.2.5
+  flutter_local_notifications: ^17.2.2
+  intl: ^0.20.2
+    
+  shared_preferences: ^2.5.4
+  cupertino_icons: ^1.0.8
+  model_viewer_plus: ^1.9.3
+  page_transition: ^2.2.1
+  http: ^1.6.0
+  video_player: ^2.9.1
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^6.0.0
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/images/
+    - assets/cells/
+    - assets/videos/
+    - assets/cases/
+    - assets/images/heart/
+    - assets/images/histology/
+    - assets/images/cross_sections/
+    - assets/images/anatomy/
+    - assets/medical_departments/ 
+
