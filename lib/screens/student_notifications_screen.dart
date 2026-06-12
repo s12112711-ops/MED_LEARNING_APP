@@ -2,6 +2,7 @@ import 'dart:convert';
 import 'package:flutter/material.dart';
 import 'package:http/http.dart' as http;
 import 'package:shared_preferences/shared_preferences.dart';
+import 'package:flutter/foundation.dart';
 
 class StudentNotificationsScreen extends StatefulWidget {
   const StudentNotificationsScreen({super.key});
@@ -17,7 +18,7 @@ class _StudentNotificationsScreenState
   List notifications = [];
   String selectedFilter = "All";
 
-  final String baseUrl = "http://10.0.2.2:5000/api/announcements";
+  final String baseUrl = kIsWeb ? "http://127.0.0.1:5000/api/announcements" : "http://10.0.2.2:5000/api/announcements";
 
   Set<String> seenNotificationIds = {};
 
